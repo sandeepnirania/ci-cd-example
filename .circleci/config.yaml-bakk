@@ -10,7 +10,7 @@ jobs:
         - run:
             name: Deploy Over SSH
             command: |
-            ssh prabhjot@192.168.1.196 "<npm install && npm run build>"
+            ssh forth-server@112.196.72.190 "<npm install && npm run build>"
 
 workflows:
     version: 2
